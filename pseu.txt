@@ -1,0 +1,47 @@
+START NEWTON
+STORE 'massa' EQUAL TO 600
+STORE 'percepatan' EQUAL TO 2
+STORE 'resultan' without any value
+
+CALCULATE 'massa' times 'percepatan'
+SET 'resultan' value with calculation result
+
+DISPLAY 'resultan'
+END NEWTON
+
+
+START TAHUN KABISAT
+STORE 'tahun' EQUAL TO 12 (number)
+
+IF 'tahun' MOD 4 EQUAL TO 0 AND 'tahun' MOD 100 NOT EQUAL 0
+    DISPLAY 'tahun kabisat'
+ELSE IF 'tahun MOD 4 EQUAL TO 0 AND 'tahun' MOD 100 EQUAL TO 0 AND 'tahun' MOD 400 EQUAL TO 0 THEN
+    DISPLAY 'tahun kabisat'
+ELSE 
+    DISPLAY 'bukan tahun kabisat'
+ENDIF
+END KABISAT
+
+
+START LAUNDRY DAY
+STORE 'integer' EQUAL TO 0
+STORE 'pakaian' EQUAL TO 20
+WHILE 'integer' EQUAL 'pakaian' INCREMENT 1 
+END WHILE 'nyalakan mesin'
+END LAUNDRY
+
+
+START PERIKSA KUKU
+STORE 'jumlah siswa' EQUAL TO 40
+STORE 'siswa' EQUAL TO 0
+STORE 'kuku'
+
+DO 
+    DO PERIKSA 'kuku'
+    IF 'kuku' EQUAL TO 'panjang' THEN
+        DO HUKUM 'siswa'
+    ELSE
+        DO PUJI 'siswa'
+    ENDIF
+LOOP UNTIL 'siswa' EQUAL TO 'jumlah siswa'
+END PERIKSA KUKU
