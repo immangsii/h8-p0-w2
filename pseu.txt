@@ -28,7 +28,7 @@ STORE 'integer' EQUAL TO 0
 STORE 'pakaian' EQUAL TO 20
 WHILE 'integer' EQUAL 'pakaian' INCREMENT 1 
 END WHILE 'nyalakan mesin'
-END LAUNDRY
+END LAUNDRY op
 
 
 START PERIKSA KUKU
