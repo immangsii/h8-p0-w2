@@ -1,9 +1,9 @@
 function xo(str) {
-var o = 0
-var x = 0
+var o = 'o'
+var x = 'x'
 for(var i=0;i<str.length;i++){ 
-    if (str[i] === 'x'){      
-        x++
+    if (str[i] === 'x'){    
+        x++                   
     } else {
         o++
     }

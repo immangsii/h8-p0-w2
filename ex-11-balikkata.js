@@ -1,8 +1,8 @@
 function balikKata(kata) {
     var jumlah = kata.length             
     var saya =""                         
-    for (var i=jumlah-1; i>=0; i-- ){    
-     saya = saya + kata[i];  
+    for (var i=0; i<jumlah; i++){ 
+     saya =  kata[i] + saya;  
     }                                  
     
     return saya;
