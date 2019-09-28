@@ -1,7 +1,8 @@
-var day = 30, month = 112, year =1900; 
+var day = 30, month = 12, year =1900; 
 var printMonth;
 switch(day >=1 && day <=31){
-  case true: day; break;
+  case true: day;
+  break;
   default: break;
 }
 switch(month) {

@@ -54,7 +54,7 @@ for(var angka = 1; angka <= 100; angka+=5) {
 
 for(var angka = 1; angka <= 100; angka+=9) {
     if (angka %10==0)
-    console.log('GENAP');
+    console.log('10 KELIPATAN 10');
     else
     console.log(' "" ');
 }
